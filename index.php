@@ -165,8 +165,9 @@ if (isset($matches[13]) && isset($matches[14])) {
     $born   = ( $born == 2 ) ? 1900 : 2000;
     $day    = $matches[6].$matches[7];
     $month  = $matches[4].$matches[5];
-    $year   = $matches[2].$matches[3];
-    $year   = ( $matches[2] == 0 ) ? 200 . $matches[3] :  19 . $year;
+    $t = $matches[1]; //century
+    $year = 1700 + 100 * $t + substr($id_num,1,2);
+
     $Country_code  = $matches[8].$matches[9];
     $Country_name  = Country_code_filter($Country_code);
 
@@ -249,7 +250,7 @@ echo "
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   if (isset($_POST['id_number'])) {
 
-    
+
 
 $id_number = $_POST['id_number'];
 

@@ -238,7 +238,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
 
 $id_number = $_POST['id_number'];
-$id_number = htmlspecialchars($text);
 
 $id_multi_numbers = explode("\n", $id_number);
 

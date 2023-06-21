@@ -1,3 +1,4 @@
+تحليل ارقام بطاقة الهوية المصرية بإستخدام لغة البرمجة php لاستخراج بيانات الارقام المكونة من 14 رقم ثم كشف البيانات التي تعنيها هذة الأرقام .
 # egyptian_ID_numbers_detection
 Deep egyptian id numbers detection ** 14 digit
 

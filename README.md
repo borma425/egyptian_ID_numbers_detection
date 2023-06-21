@@ -5,7 +5,7 @@ Deep egyptian id numbers detection ** 14 digit
 eg :
 
 ### ۲۹۸۱۱۰۸۲۵۰٤۲۹۷
-,
+Or
 ### 29811082504297
 ----------------
 

@@ -45,6 +45,20 @@ textarea{
 <?php
 
 
+
+
+/*
+
+@@ How to do the math with the 14 digits in the card
+
+@ Arabic Source:
+https://www.gomhuriaonline.com/Gomhuria/328650.html
+
+*/
+
+
+
+
 function arabicToEnglish($string) {
   $string = str_replace(' ', '', $string);
 	$newNumbers = range(0, 9);

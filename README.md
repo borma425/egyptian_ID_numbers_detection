@@ -12,3 +12,4 @@ Or
 The 14 numbers are analyzed very deeply
 It recognizes if the card was outside the country or the city inside Egypt, and checks if this card is actually valid as numbers
 
+![image](https://github.com/borma425/egyptian_ID_numbers_detection/assets/42983220/1daa909e-c52a-481a-847c-9d9152624d21)

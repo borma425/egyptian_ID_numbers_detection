@@ -3,7 +3,7 @@
 Deep egyptian id numbers detection ** 14 digit
 
 # Try it Online :
-https://www.brosly.com/eg_id_check/index.php
+https://www.brosly.com/eg_id_check
 
 ## Works with Arabic and foreign numbers at the same time 
 eg :
